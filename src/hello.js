@@ -1,3 +1,6 @@
+/**
+ * Class that manages a given msg
+ */
 class Hello{
     /**
      * Create a New Hello object
@@ -7,6 +10,10 @@ class Hello{
         this.msg = msg
     }
 
+    /**
+     * @async
+     * Give the message to the world!
+     */
     world(){
         return new Promise((resolve, reject) => {
             resolve(this.msg)
