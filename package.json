@@ -1,0 +1,22 @@
+{
+  "name": "testnode",
+  "version": "1.0.0",
+  "description": "Hello World App",
+  "main": "start.js",
+  "scripts": {
+    "test": "mocha --require babel-core/register"
+  },
+  "keywords": [
+    "helloworld"
+  ],
+  "author": "W Scott McKibbin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
+}
